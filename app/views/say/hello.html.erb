@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Hello, Rails!</title>
+  </head>
+  <body>
+    <h1>Hello from Rails!</h1>
+    <ul>
+  <li>Addition: <%= 1+2 %> </li>
+  <li>Concatenation: <%= "cow" + "boy" %> </li>
+  <li>Time in one hour: <%= 1.hour.from_now %> </li>
+</ul>
+
+<% 3.times do  -%> 
+Ho!<br />
+<% end  %>
+Merry Christmas!
+
+
+<% 3.downto(1) do |count| -%>
+<%= count %>...<br />
+<% end -%>
+Lift off!
+
+Email: <%= h("Ann & Bill <frazers@isp.email>" ) %>
+
+<p>
+ It is now <%= @time %>
+</p>
+
+
+
+  </body>
+</html>
