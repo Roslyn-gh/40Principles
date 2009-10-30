@@ -1,0 +1,24 @@
+<h1>Editing description</h1>
+
+<% form_for(@description) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :idShort %><br />
+    <%= f.text_area :idShort %>
+  </p>
+  <p>
+    <%= f.label :descshort %><br />
+    <%= f.text_area :descshort %>
+  </p>
+  <p>
+    <%= f.label :descLong %><br />
+    <%= f.text_area :descLong %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @description %> |
+<%= link_to 'Back', descriptions_path %>

@@ -1,5 +1,19 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :descriptions_shorts
+  map.resources :descriptions
+
+  map.resources :descriptions
+
+  map.resources :products
+
+  map.resources :descriptions
+
+  map.resources :descriptions
+
+  map.resources :descriptions
+
+  map.resources :descriptions
+
+  map.resources :descriptions
 
   map.resources :descriptions_shorts
 

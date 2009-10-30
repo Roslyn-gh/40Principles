@@ -1,0 +1,20 @@
+<h1>Editing descriptions_short</h1>
+
+<% form_for(@descriptions_short) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label : idShort %><br />
+    <%= f.text_field : idShort %>
+  </p>
+  <p>
+    <%= f.label :descriptionShort %><br />
+    <%= f.text_field :descriptionShort %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @descriptions_short %> |
+<%= link_to 'Back', descriptions_shorts_path %>

@@ -1,0 +1,1830 @@
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (7.4ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (3.2ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptionsShorts (20091030080055)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptionsShorts (20091030080055)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptionsShorts (20091030080055)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptionsShorts (20091030080055)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptionsShorts (20091030080055)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptionsShorts (20091030080055)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptionsShorts (20091030080055)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptionsShorts (20091030080055)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptionsShorts (20091030080055)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptionsShorts (20091030080055)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030080904)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030080904)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "desc" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030080904')[0m
+  [4;35;1mSQL (0.9ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20091030081123)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030081123')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20091030081123)
+Migrating to CreateDescriptions (20091030081244)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table "descriptions" already exists: CREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (9.4ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (3.6ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091030081419')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("descriptions")[0m
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2009-10-30 01:18:24) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Completed in 90ms (View: 12, DB: 1) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-30 01:18:32) [GET]
+
+ActionController::RoutingError (No route matches "/principles" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:19:00) [GET]
+  [4;36;1mDescription Load (0.3ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 55ms (View: 50, DB: 0) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:22:45) [GET]
+  [4;35;1mDescription Load (1.0ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 19ms (View: 4, DB: 1) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:22:47) [GET]
+  [4;36;1mDescription Load (0.8ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 21ms (View: 5, DB: 1) | 200 OK [http://localhost/descriptions]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mALTER TABLE "descriptions" ADD "idShort" decimal[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030082132')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:23:08) [GET]
+  [4;35;1mDescription Load (0.8ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 21ms (View: 3, DB: 1) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:23:11) [GET]
+  [4;36;1mDescription Load (0.9ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 20ms (View: 3, DB: 1) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:23:12) [GET]
+  [4;35;1mDescription Load (1.1ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 19ms (View: 3, DB: 1) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:23:12) [GET]
+  [4;36;1mDescription Load (0.3ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 108ms (View: 2, DB: 0) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:23:46) [GET]
+  [4;36;1mDescription Load (0.4ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 65ms (View: 59, DB: 0) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:23:49) [GET]
+  [4;35;1mDescription Load (0.3ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:26:36) [GET]
+  [4;36;1mDescription Load (0.8ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 32ms (View: 15, DB: 1) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:28:11) [GET]
+  [4;35;1mDescription Load (0.9ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 31ms (View: 16, DB: 1) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:28:49) [GET]
+  [4;36;1mDescription Load (0.8ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 31ms (View: 15, DB: 1) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#new (for 127.0.0.1 at 2009-10-30 01:28:54) [GET]
+Rendering template within layouts/descriptions
+Rendering descriptions/new
+Completed in 40ms (View: 23, DB: 0) | 200 OK [http://localhost/descriptions/new]
+
+
+Processing DescriptionsController#create (for 127.0.0.1 at 2009-10-30 01:29:03) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"vTLg5DaxKWpGFIYWQr5Owo+FvDHEabAsPe2/gUSUUjY=", "description"=>{"descshort"=>"qqqq"}}
+  [4;35;1mDescription Create (0.9ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES('qqqq', '2009-10-30 08:29:03', '2009-10-30 08:29:03', NULL)[0m
+Redirected to http://localhost:3000/descriptions/1
+Completed in 36ms (DB: 1) | 302 Found [http://localhost/descriptions]
+
+
+Processing DescriptionsController#show (for 127.0.0.1 at 2009-10-30 01:29:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mDescription Load (0.6ms)[0m   [0;1mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 1) [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/show
+Completed in 116ms (View: 98, DB: 1) | 200 OK [http://localhost/descriptions/1]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:29:07) [GET]
+  [4;35;1mDescription Load (1.8ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 38ms (View: 22, DB: 2) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#destroy (for 127.0.0.1 at 2009-10-30 01:29:14) [DELETE]
+  Parameters: {"authenticity_token"=>"vTLg5DaxKWpGFIYWQr5Owo+FvDHEabAsPe2/gUSUUjY=", "id"=>"1"}
+  [4;36;1mDescription Load (0.6ms)[0m   [0;1mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 1) [0m
+  [4;35;1mDescription Destroy (0.7ms)[0m   [0mDELETE FROM "descriptions" WHERE "id" = 1[0m
+Redirected to http://localhost:3000/descriptions
+Completed in 41ms (DB: 1) | 302 Found [http://localhost/descriptions/1]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:29:14) [GET]
+  [4;36;1mDescription Load (0.8ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 20ms (View: 3, DB: 1) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:30:17) [GET]
+  [4;35;1mDescription Load (0.9ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 21ms (View: 5, DB: 1) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:30:19) [GET]
+  [4;36;1mDescription Load (1.0ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 21ms (View: 5, DB: 1) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#new (for 127.0.0.1 at 2009-10-30 01:30:20) [GET]
+Rendering template within layouts/descriptions
+Rendering descriptions/new
+Completed in 29ms (View: 13, DB: 0) | 200 OK [http://localhost/descriptions/new]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:30:23) [GET]
+  [4;35;1mDescription Load (0.8ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 18ms (View: 3, DB: 1) | 200 OK [http://localhost/descriptions]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:30:34) [GET]
+  [4;36;1mDescription Load (0.3ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#new (for 127.0.0.1 at 2009-10-30 01:30:35) [GET]
+Rendering template within layouts/descriptions
+Rendering descriptions/new
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/descriptions/new]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:30:38) [GET]
+  [4;35;1mDescription Load (0.8ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 20ms (View: 4, DB: 1) | 200 OK [http://localhost/descriptions]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:31:11) [GET]
+  [4;36;1mDescription Load (0.8ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 32ms (View: 16, DB: 1) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#new (for 127.0.0.1 at 2009-10-30 01:31:14) [GET]
+Rendering template within layouts/descriptions
+Rendering descriptions/new
+Completed in 39ms (View: 15, DB: 0) | 200 OK [http://localhost/descriptions/new]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:31:16) [GET]
+  [4;35;1mDescription Load (0.8ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 19ms (View: 4, DB: 1) | 200 OK [http://localhost/descriptions]
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:33:05) [GET]
+  [4;36;1mDescription Load (0.3ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#new (for 127.0.0.1 at 2009-10-30 01:33:06) [GET]
+Rendering template within layouts/descriptions
+Rendering descriptions/new
+Completed in 44ms (View: 27, DB: 0) | 200 OK [http://localhost/descriptions/new]
+
+
+Processing DescriptionsController#create (for 127.0.0.1 at 2009-10-30 01:33:22) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"vTLg5DaxKWpGFIYWQr5Owo+FvDHEabAsPe2/gUSUUjY=", "description"=>{"descshort"=>"q", "idShort"=>"q"}}
+  [4;35;1mDescription Create (0.7ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES('q', '2009-10-30 08:33:22', '2009-10-30 08:33:22', 0.0)[0m
+Redirected to http://localhost:3000/descriptions/2
+Completed in 37ms (DB: 1) | 302 Found [http://localhost/descriptions]
+
+
+Processing DescriptionsController#show (for 127.0.0.1 at 2009-10-30 01:33:22) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mDescription Load (0.7ms)[0m   [0;1mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 2) [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/show
+Completed in 72ms (View: 53, DB: 1) | 200 OK [http://localhost/descriptions/2]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:33:26) [GET]
+  [4;35;1mDescription Load (0.4ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#destroy (for 127.0.0.1 at 2009-10-30 01:33:32) [DELETE]
+  Parameters: {"authenticity_token"=>"vTLg5DaxKWpGFIYWQr5Owo+FvDHEabAsPe2/gUSUUjY=", "id"=>"2"}
+  [4;36;1mDescription Load (0.5ms)[0m   [0;1mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 2) [0m
+  [4;35;1mDescription Destroy (0.2ms)[0m   [0mDELETE FROM "descriptions" WHERE "id" = 2[0m
+Redirected to http://localhost:3000/descriptions
+Completed in 18ms (DB: 1) | 302 Found [http://localhost/descriptions/2]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:33:32) [GET]
+  [4;36;1mDescription Load (0.3ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#new (for 127.0.0.1 at 2009-10-30 01:33:34) [GET]
+Rendering template within layouts/descriptions
+Rendering descriptions/new
+Completed in 18ms (View: 5, DB: 0) | 200 OK [http://localhost/descriptions/new]
+
+
+Processing DescriptionsController#create (for 127.0.0.1 at 2009-10-30 01:33:44) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"vTLg5DaxKWpGFIYWQr5Owo+FvDHEabAsPe2/gUSUUjY=", "description"=>{"descshort"=>"qq", "idShort"=>"3.2"}}
+  [4;35;1mDescription Create (0.6ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES('qq', '2009-10-30 08:33:44', '2009-10-30 08:33:44', 3.2)[0m
+Redirected to http://localhost:3000/descriptions/3
+Completed in 32ms (DB: 1) | 302 Found [http://localhost/descriptions]
+
+
+Processing DescriptionsController#show (for 127.0.0.1 at 2009-10-30 01:33:45) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mDescription Load (0.7ms)[0m   [0;1mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 3) [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/show
+Completed in 24ms (View: 2, DB: 1) | 200 OK [http://localhost/descriptions/3]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:33:48) [GET]
+  [4;35;1mDescription Load (1.5ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 39ms (View: 22, DB: 1) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#show (for 127.0.0.1 at 2009-10-30 01:33:56) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mDescription Load (0.8ms)[0m   [0;1mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 3) [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/show
+Completed in 27ms (View: 8, DB: 1) | 200 OK [http://localhost/descriptions/3]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:33:59) [GET]
+  [4;35;1mDescription Load (1.2ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 75ms (View: 7, DB: 1) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#new (for 127.0.0.1 at 2009-10-30 01:34:02) [GET]
+Rendering template within layouts/descriptions
+Rendering descriptions/new
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/descriptions/new]
+
+
+Processing DescriptionsController#create (for 127.0.0.1 at 2009-10-30 01:34:11) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"vTLg5DaxKWpGFIYWQr5Owo+FvDHEabAsPe2/gUSUUjY=", "description"=>{"descshort"=>"rr", "idShort"=>"1"}}
+  [4;36;1mDescription Create (0.7ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES('rr', '2009-10-30 08:34:11', '2009-10-30 08:34:11', 1.0)[0m
+Redirected to http://localhost:3000/descriptions/4
+Completed in 40ms (DB: 1) | 302 Found [http://localhost/descriptions]
+
+
+Processing DescriptionsController#show (for 127.0.0.1 at 2009-10-30 01:34:11) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mDescription Load (0.7ms)[0m   [0mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 4) [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/show
+Completed in 26ms (View: 7, DB: 1) | 200 OK [http://localhost/descriptions/4]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:34:13) [GET]
+  [4;36;1mDescription Load (2.5ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 53ms (View: 35, DB: 3) | 200 OK [http://localhost/descriptions]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mDescription Create (0.3ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES('Segmentation', '2009-10-30 08:53:39', '2009-10-30 08:53:39', 1.0)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030084727')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:54:14) [GET]
+  [4;35;1mDescription Load (1.8ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 68ms (View: 49, DB: 2) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#destroy (for 127.0.0.1 at 2009-10-30 01:54:20) [DELETE]
+  Parameters: {"authenticity_token"=>"vTLg5DaxKWpGFIYWQr5Owo+FvDHEabAsPe2/gUSUUjY=", "id"=>"3"}
+  [4;36;1mDescription Load (0.6ms)[0m   [0;1mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 3) [0m
+  [4;35;1mDescription Destroy (0.4ms)[0m   [0mDELETE FROM "descriptions" WHERE "id" = 3[0m
+Redirected to http://localhost:3000/descriptions
+Completed in 37ms (DB: 1) | 302 Found [http://localhost/descriptions/3]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:54:20) [GET]
+  [4;36;1mDescription Load (1.7ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 33ms (View: 16, DB: 2) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#destroy (for 127.0.0.1 at 2009-10-30 01:54:24) [DELETE]
+  Parameters: {"authenticity_token"=>"vTLg5DaxKWpGFIYWQr5Owo+FvDHEabAsPe2/gUSUUjY=", "id"=>"4"}
+  [4;35;1mDescription Load (0.2ms)[0m   [0mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 4) [0m
+  [4;36;1mDescription Destroy (0.2ms)[0m   [0;1mDELETE FROM "descriptions" WHERE "id" = 4[0m
+Redirected to http://localhost:3000/descriptions
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/descriptions/4]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:54:24) [GET]
+  [4;35;1mDescription Load (0.5ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/descriptions]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:55:31) [GET]
+  [4;36;1mDescription Load (0.5ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 17ms (View: 7, DB: 1) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:55:32) [GET]
+  [4;35;1mDescription Load (0.4ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#destroy (for 127.0.0.1 at 2009-10-30 01:55:38) [DELETE]
+  Parameters: {"authenticity_token"=>"vTLg5DaxKWpGFIYWQr5Owo+FvDHEabAsPe2/gUSUUjY=", "id"=>"5"}
+  [4;36;1mDescription Load (0.2ms)[0m   [0;1mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 5) [0m
+  [4;35;1mDescription Destroy (0.2ms)[0m   [0mDELETE FROM "descriptions" WHERE "id" = 5[0m
+Redirected to http://localhost:3000/descriptions
+Completed in 29ms (DB: 0) | 302 Found [http://localhost/descriptions/5]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:55:38) [GET]
+  [4;36;1mDescription Load (0.3ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/descriptions]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:55:44) [GET]
+  [4;35;1mDescription Load (1.3ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 21ms (View: 4, DB: 1) | 200 OK [http://localhost/descriptions]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:56:24) [GET]
+  [4;36;1mDescription Load (0.8ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 19ms (View: 3, DB: 1) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:56:25) [GET]
+  [4;35;1mDescription Load (0.8ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 40ms (View: 3, DB: 1) | 200 OK [http://localhost/descriptions]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:56:54) [GET]
+  [4;36;1mDescription Load (0.3ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 88ms (View: 2, DB: 0) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:56:55) [GET]
+  [4;35;1mDescription Load (0.8ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 21ms (View: 4, DB: 1) | 200 OK [http://localhost/descriptions]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mDescription Delete all (0.3ms)[0m   [0mDELETE FROM "descriptions" WHERE 1=1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20091030084727'[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime, "idShort" decimal) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "descriptions"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("altered_descriptions")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDROP TABLE "altered_descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030082132'[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDROP TABLE "descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030081419'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030081419')[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;35;1mSQL (0.3ms)[0m   [0mALTER TABLE "descriptions" ADD "idShort" integer[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030082132')[0m
+Migrating to AddData (20091030084727)
+  [4;35;1mDescription Create (0.2ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES('Segmentation', '2009-10-30 08:57:26', '2009-10-30 08:57:26', 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030084727')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 01:57:30) [GET]
+  [4;36;1mDescription Load (1.2ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 38ms (View: 22, DB: 1) | 200 OK [http://localhost/descriptions]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 02:02:07) [GET]
+  [4;35;1mDescription Load (1.2ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 37ms (View: 22, DB: 1) | 200 OK [http://localhost/descriptions]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mDescription Delete all (0.3ms)[0m   [0mDELETE FROM "descriptions" WHERE 1=1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20091030084727'[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime, "idShort" integer) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mDROP TABLE "descriptions"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("altered_descriptions")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDROP TABLE "altered_descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030082132'[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDROP TABLE "descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030081419'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030081419')[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;35;1mSQL (0.3ms)[0m   [0mALTER TABLE "descriptions" ADD "idShort" integer[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030082132')[0m
+Migrating to AddData (20091030084727)
+  [4;35;1mDescription Create (0.2ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Segmentation', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 1)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Extraction', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 2)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Local quality', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 3)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Asymmetry', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 4)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Consolidation', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 5)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Universality', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 6)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Nesting principle', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 7)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Counterweight', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 8)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Prior counter-action', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 9)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Prior action', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 10)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Be prepared', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 11)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Equipotentiality', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 12)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Reverse', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 13)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Spheroidality', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 14)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Dynamicity', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 15)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Partial or excessive action', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 16)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Move to a new dimension', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 17)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Mechanical vibration', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 18)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Periodic action', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 19)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Continuity of useful action', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 20)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Rush through', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 21)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Convert harm into benefit', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 22)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Feedback', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 23)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Mediator', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 24)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Self-service', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 25)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Copying', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 26)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Cheap and short lived', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 27)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Replacement of a mechanical system', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 28)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Pneumatic or hydraulic construction', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 29)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Flexible film or thin membranes', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 30)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Porous material', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 31)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Changing color', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 32)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Homogeneity', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 33)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Rejecting and regenerating parts', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 34)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Parameter change', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 35)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Phase transition', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 36)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Application of heat expansion', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 37)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Using strong oxidizers', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 38)[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Inert environment', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 39)[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort") VALUES(' Composite materials', '2009-10-30 09:05:43', '2009-10-30 09:05:43', 40)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091030084727')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("descriptions")[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 02:05:47) [GET]
+  [4;36;1mDescription Load (3.3ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 182ms (View: 172, DB: 3) | 200 OK [http://localhost/descriptions]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+Migrating to AddLongdescToDescriptions (20091030091628)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mALTER TABLE "descriptions" ADD "descLong" text[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030091628')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 02:18:28) [GET]
+  [4;35;1mDescription Load (3.5ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 240ms (View: 230, DB: 3) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 02:18:35) [GET]
+  [4;36;1mDescription Load (10.6ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 201ms (View: 171, DB: 11) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 02:19:03) [GET]
+  [4;35;1mDescription Load (3.6ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 243ms (View: 231, DB: 4) | 200 OK [http://localhost/descriptions]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddLongdescToDescriptions (20091030091628)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCREATE TEMPORARY TABLE "altered_descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime, "idShort" integer, "descLong" text) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "descriptions"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime, "idShort" integer) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("altered_descriptions")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDROP TABLE "altered_descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030091628'[0m
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mDescription Delete all (0.4ms)[0m   [0mDELETE FROM "descriptions" WHERE 1=1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20091030084727'[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime, "idShort" integer) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "descriptions"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_descriptions")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDROP TABLE "altered_descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030082132'[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDROP TABLE "descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030081419'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030081419')[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;35;1mSQL (0.3ms)[0m   [0mALTER TABLE "descriptions" ADD "idShort" integer[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030082132')[0m
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime, "idShort" integer) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "descriptions"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("altered_descriptions")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDROP TABLE "altered_descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030082132'[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDROP TABLE "descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030081419'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030081419')[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;35;1mSQL (0.4ms)[0m   [0mALTER TABLE "descriptions" ADD "idShort" integer[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030082132')[0m
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCREATE TEMPORARY TABLE "altered_descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime, "idShort" integer) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "descriptions"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("altered_descriptions")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDROP TABLE "altered_descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030082132'[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDROP TABLE "descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030081419'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030081419')[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;35;1mSQL (0.3ms)[0m   [0mALTER TABLE "descriptions" ADD "idShort" integer[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030082132')[0m
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime, "idShort" integer) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "descriptions"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("altered_descriptions")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDROP TABLE "altered_descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030082132'[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDROP TABLE "descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030081419'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030081419')[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;35;1mSQL (0.3ms)[0m   [0mALTER TABLE "descriptions" ADD "idShort" integer[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030082132')[0m
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCREATE TEMPORARY TABLE "altered_descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime, "idShort" integer) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "descriptions"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("altered_descriptions")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDROP TABLE "altered_descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030082132'[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDROP TABLE "descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030081419'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030081419')[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;35;1mSQL (0.3ms)[0m   [0mALTER TABLE "descriptions" ADD "idShort" integer[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030082132')[0m
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mDescription Delete all (0.3ms)[0m   [0mDELETE FROM "descriptions" WHERE 1=1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mDescription Delete all (0.3ms)[0m   [0mDELETE FROM "descriptions" WHERE 1=1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mDescription Delete all (0.3ms)[0m   [0mDELETE FROM "descriptions" WHERE 1=1[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 10:38:10) [GET]
+  [4;36;1mDescription Load (0.4ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 68ms (View: 62, DB: 0) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#new (for 127.0.0.1 at 2009-10-30 10:38:17) [GET]
+Rendering template within layouts/descriptions
+Rendering descriptions/new
+
+ActionView::TemplateError (undefined method `descLong' for #<Description:0xb60a1bc4>) on line #15 of app/views/descriptions/new.html.erb:
+12:   </p>
+13:   <p>
+14:     <%= f.label :descLong %><br />
+15:     <%= f.text_area :descLong %>
+16:   </p>
+17:   <p>
+18:     <%= f.submit 'Create' %>
+
+    app/views/descriptions/new.html.erb:15
+    app/views/descriptions/new.html.erb:3
+    app/controllers/descriptions_controller.rb:29:in `new'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (48.0ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DescriptionsController#new (for 127.0.0.1 at 2009-10-30 10:41:54) [GET]
+Rendering template within layouts/descriptions
+Rendering descriptions/new
+
+ActionView::TemplateError (undefined method `descLong' for #<Description:0xb5f146d0>) on line #15 of app/views/descriptions/new.html.erb:
+12:   </p>
+13:   <p>
+14:     <%= f.label :descLong %><br />
+15:     <%= f.text_area :descLong %>
+16:   </p>
+17:   <p>
+18:     <%= f.submit 'Create' %>
+
+    app/views/descriptions/new.html.erb:15
+    app/views/descriptions/new.html.erb:3
+    app/controllers/descriptions_controller.rb:29:in `new'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (131.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 10:42:31) [GET]
+  [4;35;1mDescription Load (0.3ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#new (for 127.0.0.1 at 2009-10-30 10:42:35) [GET]
+Rendering template within layouts/descriptions
+Rendering descriptions/new
+
+ActionView::TemplateError (undefined method `descLong' for #<Description:0xb5feee34>) on line #15 of app/views/descriptions/new.html.erb:
+12:   </p>
+13:   <p>
+14:     <%= f.label :descLong %><br />
+15:     <%= f.text_area :descLong %>
+16:   </p>
+17:   <p>
+18:     <%= f.submit 'Create' %>
+
+    app/views/descriptions/new.html.erb:15
+    app/views/descriptions/new.html.erb:3
+    app/controllers/descriptions_controller.rb:29:in `new'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime, "idShort" integer) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "descriptions"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("altered_descriptions")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDROP TABLE "altered_descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030082132'[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDROP TABLE "descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030081419'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030081419')[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;35;1mSQL (0.3ms)[0m   [0mALTER TABLE "descriptions" ADD "idShort" integer[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030082132')[0m
+Migrating to AddData (20091030084727)
+  [4;35;1mDescription Delete all (0.2ms)[0m   [0mDELETE FROM "descriptions" WHERE 1=1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime, "idShort" integer) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "descriptions"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("altered_descriptions")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDROP TABLE "altered_descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030082132'[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDROP TABLE "descriptions"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20091030081419'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "descriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "descshort" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030081419')[0m
+Migrating to AddIdToDescriptions (20091030082132)
+  [4;35;1mSQL (0.3ms)[0m   [0mALTER TABLE "descriptions" ADD "idShort" integer[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030082132')[0m
+Migrating to AddDescLongToDescriptions (20091030174146)
+  [4;35;1mSQL (0.3ms)[0m   [0mALTER TABLE "descriptions" ADD "descLong" text[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030174146')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 10:45:09) [GET]
+  [4;36;1mDescription Load (0.3ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#new (for 127.0.0.1 at 2009-10-30 10:45:11) [GET]
+Rendering template within layouts/descriptions
+Rendering descriptions/new
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/descriptions/new]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 10:45:18) [GET]
+  [4;35;1mDescription Load (1.0ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 19ms (View: 4, DB: 1) | 200 OK [http://localhost/descriptions]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDescriptions (20091030081419)
+Migrating to AddIdToDescriptions (20091030082132)
+Migrating to AddData (20091030084727)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mDescription Delete all (0.3ms)[0m   [0mDELETE FROM "descriptions" WHERE 1=1[0m
+  [4;36;1mDescription Create (0.2ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Segmentation', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 1, 'Divide an object into independent parts. Replace mainframe computer by personal computers. Replace a large truck by a truck and trailer. Use a work breakdown structure for a large project. Make an object easy to disassemble. Modular furniture Quick disconnect joints in plumbing. Increase the degree of fragmentation or segmentation. Replace solid shades with Venetian blinds. Use powdered welding metal instead of foil or rod to get better penetration of the joint.')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Extraction', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 2, 'Separate an interfering part or property from an object, or single out the only necessary part or property of an object. Locate a noisy compressor outside the building where compressed air is used. Use fiber optics or a light pipe to separate the hot light source from the location where light is needed. Use the sound of a barking dog, without the dog, as a burglar alarm.')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Local quality', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 3, 'Change an object''s structure from uniform to nonuniform, change an external environment or external influence from uniform to nonuniform. Use a temperature, density, or pressure gradient instead of constant temperature, density or pressure.Make each part of an object function in conditions most suitable for its operation. Lunch box with special compartments for hot and cold solid foods and for liquids.Make each part of an object fulfill a different and useful function. Pencil with eraser Hammer with nail puller Multifunction tool that scales fish, acts as a pliers, a wire stripper, a flatblade screwdriver, a Phillips screwdriver, manicure set, etc.')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Asymmetry', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 4, 'Change the shape of an object from symmetrical to asymmetrical. Asymmetrical mixing vessels or asymmetrical vanes in symmetrical vessels improve mixing cement trucks, cake mixers, blenders. Put a flat spot on a cylindrical shaft to attach a knob securely.If an object is asymmetrical, increase its degree of asymmetry. Change from circular Orings to oval crosssection to specialized shapes to improve sealing. Use astigmatic optics to merge colors.')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Consolidation', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 5, 'Bring closer together (or merge) identical or similar objects, assemble identical or similar parts to perform parallel operations. Personal computers in a network Thousands of microprocessors in a parallel processor computer Vanes in a ventilation system Electronic chips mounted on both sides of a circuit board or subassembly. Make operations contiguous or parallel; bring them together in time. Link slats together in Venetian or vertical blinds. Medical diagnostic instruments that analyze multiple blood parameters simultaneously Mulching lawnmower')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Universality', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 6, 'Make a part or object perform multiple functions; eliminate the need for other parts. Handle of a toothbrush contains toothpaste Child s car safety seat converts to a stroller Mulching lawnmower Yes, it demonstrates both Principles 5 and 6, Merging and Universality. Team leader acts as recorder and timekeeper. CCD Charge coupled device with microlenses formed on the surface')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Nesting principle', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 7, 'Place one object inside another; place each object, in turn, inside the other. Measuring cups or spoons Russian dolls Portable audio system microphone fits inside transmitter, which fits inside amplifier case. Make one part pass through a cavity in the other. Extending radio antenna Extending pointer Zoom lens Seat belt retraction mechanism Retractable aircraft landing gear stow inside the fuselage also demonstrates Principle 15, Dynamism.')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Counterweight', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 8, 'To compensate for the weight of an object, merge it with other objects that provide lift. Inject foaming agent into a bundle of logs, to make it float better. Use helium balloon to support advertising signs.To compensate for the weight of an object, make it interact with the environment e.g. use aerodynamic, hydrodynamic, buoyancy and other forces). Aircraft wing shape reduces air density above the wing, increases density below wing, to create lift. This also demonstrates Principle 4, Asymmetry. Vortex strips improve lift of aircraft wings. Hydrofoils lift ship out of the water to reduce drag.')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Prior counter-action', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 9, 'If it will be necessary to do an action with both harmful and useful effects, this action should be replaced with antiactions to control harmful effects. Buffer a solution to prevent harm from extremes of pH.Create beforehand stresses in an object that will oppose known undesirable working stresses later on. Prestress rebar before pouring concrete. Masking anything before harmful exposure: Use a lead apron on parts of the body not being exposed to Xrays. Use masking tape to protect the part of an object not being painted')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Prior action', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 10, 'Perform, before it is needed, the required change of an object either fully or partially. Prepasted wall paper Sterilize all instruments needed for a surgical procedure on a sealed tray.Prearrange objects such that they can come into action from the most convenient place and without losing time for their delivery. Kanban arrangements in a JustInTime factory Flexible manufacturing cell')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Be prepared', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 11, 'Prepare emergency means beforehand to compensate for the relatively low reliability of an object. Magnetic strip on photographic film that directs the developer to compensate for poor exposure Backup parachute Alternate air system for aircraft instruments')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Equipotentiality', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 12, 'In a potential field, limit position changes (e.g. change operating conditions to eliminate the need to raise or lower objects in a gravity field). Spring loaded parts delivery system in a factory Locks in a channel between 2 bodies of water Panama Canal Skillets in an automobile plant that bring all tools to the right position also demonstrates Principle 10, Preliminary Action')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Reverse', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 13, 'Invert the action(s) used to solve the problem e.g. instead of cooling an object, heat it. To loosen stuck parts, cool the inner part instead of heating the outer part. Bring the mountain to Mohammed, instead of bringing Mohammed to the mountain. Make movable parts or the external environment fixed, and fixed parts movable. Rotate the part instead of the tool. Moving sidewalk with standing people. Treadmill for walking or running in place.Turn the object or process upside down. Turn an assembly upside down to insert fasteners especially screws. Empty grain from containers ship or railroad by inverting them.')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Spheroidality', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 14, 'Instead of using rectilinear parts, surfaces, or forms, use curvilinear ones; move from flat surfaces to spherical ones; from parts shaped as a cube parallelepiped to ballshaped structures. Use arches and domes for strength in architecture.Use rollers, balls, spirals, domes. Spiral gear Nautilus produces continuous resistance for weight lifting. Ball point and roller point pens for smooth ink distributionGo from linear to rotary motion, use centrifugal forces. Produce linear motion of the cursor on the computer screen using a mouse or a trackball. Replace wringing clothes to remove water with spinning clothes in a washing machine. Use spherical casters instead of cylindrical wheels to move furniture.')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Dynamicity', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 15, 'Allow or design the characteristics of an object, external environment, or process to change to be optimal or to find an optimal operating condition. Adjustable steering wheel or seat, or back support, or mirror position...Divide an object into parts capable of movement relative to each other. The *butterfly* computer keyboard, also demonstrates Principle 7, *Nested doll*.If an object or process is rigid or inflexible, make it movable or adaptive. The flexible boroscope for examining engines The flexible sigmoidoscope, for medical examination')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Partial or excessive action', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 16, 'If 100 percent of an object is hard to achieve using a given solution method then, by using ''slightly less'' or ''slightly more'' of the same method, the problem may be considerably easier to solve. Over spray when painting, then remove excess. (Or, use a stencilthis is an application of Principle 3, Local Quality and Principle 9, Preliminary antiaction. Fill, then *top off* when filling the gas tank of your car.')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Move to a new dimension', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 17, 'To move an object in two or threedimensional space. Infrared computer mouse moves in space, instead of on a surface, for presentations. Fiveaxis cutting tool can be positioned where needed.Use a multistory arrangement of objects instead of a singlestory arrangement. Cassette with 6 CD s to increase music time and variety Electronic chips on both sides of a printed circuit board Employees *disappear* from the customers in a theme park, descend into a tunnel, and walk to their next assignment, where they return to the surface and magically reappear.Tilt or reorient the object, lay it on its side. Dump truckUse ''another side'' of a given area. Stack microelectronic hybrid circuits to improve density.')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Mechanical vibration', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 18, 'Cause an object to oscillate or vibrate. Electric carving knife with vibrating bladesIncrease its frequency even up to the ultrasonic. Distribute powder with vibration.Use an object''s resonant frequency. Destroy gall stones or kidney stones using ultrasonic resonance.Use piezoelectric vibrators instead of mechanical ones. Quartz crystal oscillations drive high accuracy clocks.Use combined ultrasonic and electromagnetic field oscillations. Mixing alloys in an induction furnace')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Periodic action', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 19, 'Instead of continuous action, use periodic or pulsating actions. Hitting something repeatedly with a hammer Replace a continuous siren with a pulsed sound.If an action is already periodic, change the periodic magnitude or frequency. Use Frequency Modulation to convey information, instead of Morse code. Replace a continuous siren with sound that changes amplitude and frequency.Use pauses between impulses to perform a different action. In cardiopulmonary respiration CPR breathe after every 5 chest compressions.')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Continuity of useful action', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 20, 'Carry on work continuously; make all prts of an object work at full load, all the time. Flywheel (or hydraulic system) stores energy when a vehicle stops, so the motor can keep running at optimum power. Run the bottleneck operations in a factory continuously, to reach the optimum pace. From theory of constraints, or takt time operations. Eliminate all idle or intermittent actions or work. Print during the return of a printer carriagedot matrix printer, daisy wheel printers, inkjet printers.')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Rush through', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 21, 'Conduct a process , or certain stages e.g. destructible, harmful or hazardous operations at high speed. Use a high speed dentist s drill to avoid heating tissue. Cut plastic faster than heat can propagate in the material, to avoid deforming the shape.')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Convert harm into benefit', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 22, 'Use harmful factors particularly, harmful effects of the environment or surroundings to achieve a positive effect. Use waste heat to generate electric power. Recycle waste scrap material from one process as raw materials for another.Eliminate the primary harmful action by adding it to another harmful action to resolve the problem. Add a buffering material to a corrosive solution. Use a heliumoxygen mix for diving, to eliminate both nitrogen narcosis and oxygen poisoning from air and other nitrox mixes.Amplify a harmful factor to such a degree that it is no longer harmful. Use a backfire to eliminate the fuel from a forest fire.')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Feedback', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 23, 'Introduce feedback (referring back, crosschecking) to improve a process or action. Automatic volume control in audio circuits Signal from gyrocompass is used to control simple aircraft autopilots. Statistical Process Control SPC Measurements are used to decide when to modify a process. Not all feedback systems are automated! Budgets Measurements are used to decide when to modify a process.If feedback is already used, change its magnitude or influence. Change sensitivity of an autopilot when within 5 miles of an airport. Change sensitivity of a thermostat when cooling vs. heating, since it uses energy less efficiently when cooling. Change a management measure from budget variance to customer satisfaction.')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Mediator', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 24, 'Use an intermediary carrier article or intermediary process. Carpenter s nailset, used between the hammer and the nailMerge one object temporarily with another which can be easily removed. Pot holder to carry hot dishes to the table')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Self-service', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 25, 'Make an object serve itself by performing auxiliary helpful functions A soda fountain pump that runs on the pressure of the carbon dioxide that is used to *fizz* the drinks. This assures that drinks will not be flat, and eliminates the need for sensors. Halogen lamps regenerate the filament during useevaporated material is redeposited. To weld steel to aluminum, create an interface from alternating thin strips of the 2 materials. Cold weld the surface into a single unit with steel on one face and copper on the other, then use normal welding techniques to attach the steel object to the interface, and the interface to the aluminum. This concept also has elements of Principle 24, Intermediary, and Principle 4, Asymmetry.Use waste resources, energy, or substances. Use heat from a process to generate electricity: *Cogeneration*. Use animal waste as fertilizer. Use food and lawn waste to create compost.')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Copying', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 26, 'Instead of an unavailable, expensive, fragile object, use simpler and inexpensive copies. Virtual reality via computer instead of an expensive vacation Listen to an audio tape instead of attending a seminar.Replace an object, or process with optical copies. Do surveying from space photographs instead of on the ground. Measure an object by measuring the photograph. Make sonograms to evaluate the health of a fetus, instead of risking damage by direct testing.If visible optical copies are already used, move to infrared or ultraviolet copies. Make images in infrared to detect heat sources, such as diseases in crops, or intruders in a security system.')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Cheap and short lived', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 27, ' Replace an inexpensive object with a multiple of inexpensive objects, comprising certain qualities such as service life, for instance. Use disposable paper objects to avoid the cost of cleaning and storing durable objects. Plastic cups in motels, disposable diapers, many kinds of medical supplies')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Replacement of a mechanical system', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 28, 'Replace a mechanical means with a sensory optical, acoustic, taste or smell means. Replace a physical fence to confine a dog or cat with an acoustic *fence* signal audible to the animal. Use a bad smelling compound in natural gas to alert users to leakage, instead of a mechanical or electrical sensor.Use electric, magnetic and electromagnetic fields to interact with the object. To mix 2 powders, electrostatically charge one positive and the other negative. Either use fields to direct them, or mix them mechanically and let their acquired fields cause the grains of powder to pair up.Change from static to movable fields, from unstructured fields to those having structure. Early communications used omnidirectional broadcasting. We now use antennas with very detailed structure of the pattern of radiation.Use fields in conjunction with fieldactivated e.g. ferromagnetic particles. Heat a substance containing ferromagnetic material by using varying magnetic field. When the temperature exceeds the Curie point, the material becomes paramagnetic, and no longer absorbs heat.')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Pneumatic or hydraulic construction', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 29, 'Use gas and liquid parts of an object instead of solid parts e.g. inflatable, filled with liquids, air cushion, hydrostatic, hydroreactive. Comfortable shoe sole inserts filled with gel Store energy from decelerating a vehicle in a hydraulic system, then use the stored energy to accelerate later.')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Flexible film or thin membranes', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 30, 'Use flexible shells and thin films instead of three dimensional structures Use inflatable (thin film) structures as winter covers on tennis courts.Isolate the object from the external environment using flexible shells and thin films. Float a film of bipolar material one end hydrophilic, one end hydrophobic on a reservoir to limit evaporation.')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Porous material', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 31, 'Make an object porous or add porous elements (inserts, coatings, etc.). Drill holes in a structure to reduce the weight.If an object is already porous, use the pores to introduce a useful substance or function. Use a porous metal mesh to wick excess solder away from a joint. Store hydrogen in the pores of a palladium sponge. Fuel *tank* for the hydrogen car much safer than storing hydrogen gas')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Changing color', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 32, 'Change the color of an object or its external environment. Use safe lights in a photographic darkroom.Change the transparency of an object or its external environment. Use photolithography to change transparent material to a solid mask for semiconductor processing. Similarly, change mask material from transparent to opaque for silk screen processing.')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Homogeneity', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 33, 'Make objects interacting with a given object of the same material or material with identical properties. Make the container out of the same material as the contents, to reduce chemical reactions. Make a diamond cutting tool out of diamonds.')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Rejecting and regenerating parts', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 34, 'Make portions of an object that have fulfilled their functions go away discard by dissolving, evaporating, etc. or modify these directly during operation. Use a dissolving capsule for medicine. Sprinkle water on cornstarchbased packaging and watch it reduce its volume by more than 1000X! Ice structures: use water ice or carbon dioxide dry ice to make a template for a rammed earth structure, such as a temporary dam. Fill with earth, then, let the ice melt or sublime to leave the final structure.Conversely, restore consumable parts of an object directly in operation. Selfsharpening lawn mower blades Automobile engines that give themselves a *tune up* while running the ones that say *100,000 miles between tune ups*')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Parameter change', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 35, 'Change an object''s physical state e.g. to a gas, liquid, or solid. Freeze the liquid centers of filled candies, then dip in melted chocolate, instead of handling the messy, gooey, hot liquid. Transport oxygen or nitrogen or petroleum gas as a liquid, instead of a gas, to reduce volume.Change the concentration or consistency. Liquid hand soap is concentrated and more viscous than bar soap at the point of use, making it easier to dispense in the correct amount and more sanitary when shared by several people.Change the degree of flexibility. Use adjustable dampers to reduce the noise of parts falling into a container by restricting the motion of the walls of the container. Vulcanize rubber to change its flexibility and durability.Change the temperature. Raise the temperature above the Curie point to change a ferromagnetic substance to a paramagnetic substance. Raise the temperature of food to cook it. Changes taste, aroma, texture, chemical properties, etc. Lower the temperature of medical specimens to preserve them for later analysis.')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Phase transition', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 36, 'Use phenomena occurring during phase transitions e.g. volume changes, loss or absorption of heat, etc. Water expands when frozen, unlike most other liquids. Hannibal is reputed to have used this when marching on Rome a few thousand years ago. Large rocks blocked passages in the Alps. He poured water on them at night. The overnight cold froze the water, and the expansion split the rocks into small pieces which could be pushed aside. Heat pumps use the heat of vaporization and heat of condensation of a closed thermodynamic cycle to do useful work.')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Application of heat expansion', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 37, 'Use thermal expansion (or contraction) of materials. Fit a tight joint together by cooling the inner part to contract, heating the outer part to expand, putting the joint together, and returning to equilibrium.If thermal expansion is being used, use multiple materials with different coefficients of thermal expansion. The basic leaf spring thermostat: 2 metals with different coefficients of expansion are linked so that it bends one way when warmer than nominal and the opposite way when cooler.')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Using strong oxidizers', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 38, 'Replace common air with oxygenenriched air. Scuba diving with Nitrox or other nonair mixtures for extended enduranceReplace enriched air with pure oxygen. Cut at a higher temperature using an oxyacetylene torch. Treat wounds in a high pressure oxygen environment to kill anaerobic bacteria and aid healing.Expose air or oxygen to ionizing radiation. No specific exampleUse ionized oxygen. Ionize air to trap pollutants in an air cleaner.Replace ozonized or ionized oxygen with ozone. Speed up chemical reactions by ionizing the gas before use.')[0m
+  [4;36;1mDescription Create (0.1ms)[0m   [0;1mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Inert environment', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 39, 'Replace a normal environment with an inert one. Prevent degradation of a hot metal filament by using an argon atmosphere.Add neutral parts, or inert additives to an object. Increase the volume of powdered detergent by adding inert ingredients. This makes it easier to measure with conventional tools.')[0m
+  [4;35;1mDescription Create (0.1ms)[0m   [0mINSERT INTO "descriptions" ("descshort", "created_at", "updated_at", "idShort", "descLong") VALUES(' Composite materials', '2009-10-30 17:45:37', '2009-10-30 17:45:37', 40, 'Change from uniform to composite (multiple) materials. Composite epoxy resincarbon fiber golf club shafts are lighter, stronger, and more flexible than metal. Same for airplane parts. Fiberglass surfboards are lighter and more controllable and easier to form into a variety of shapes than wooden ones.')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091030084727')[0m
+Migrating to AddDescLongToDescriptions (20091030174146)
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("descriptions")[0m
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 10:45:43) [GET]
+  [4;36;1mDescription Load (11.7ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 244ms (View: 212, DB: 12) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#edit (for 127.0.0.1 at 2009-10-30 10:46:31) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mDescription Load (0.7ms)[0m   [0mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 1) [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/edit
+Completed in 52ms (View: 35, DB: 1) | 200 OK [http://localhost/descriptions/1/edit]
+
+
+Processing DescriptionsController#update (for 127.0.0.1 at 2009-10-30 10:46:56) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"vTLg5DaxKWpGFIYWQr5Owo+FvDHEabAsPe2/gUSUUjY=", "id"=>"1", "description"=>{"descshort"=>" Segmentation", "idShort"=>"1", "descLong"=>"Divide an object into independent parts. Replace mainframe computer by personal computers. Replace a large truck by a truck and trailer. Use a work breakdown structure for a large project. Make an object easy to disassemble. Modular furniture. Quick disconnect joints in plumbing. Increase the degree of fragmentation or segmentation. Replace solid shades with Venetian blinds. Use powdered welding metal instead of foil or rod to get better penetration of the joint."}}
+  [4;36;1mDescription Load (0.9ms)[0m   [0;1mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 1) [0m
+  [4;35;1mDescription Update (1.0ms)[0m   [0mUPDATE "descriptions" SET "updated_at" = '2009-10-30 17:46:56', "descLong" = 'Divide an object into independent parts. Replace mainframe computer by personal computers. Replace a large truck by a truck and trailer. Use a work breakdown structure for a large project. Make an object easy to disassemble. Modular furniture. Quick disconnect joints in plumbing. Increase the degree of fragmentation or segmentation. Replace solid shades with Venetian blinds. Use powdered welding metal instead of foil or rod to get better penetration of the joint.' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/descriptions/1
+Completed in 43ms (DB: 2) | 302 Found [http://localhost/descriptions/1]
+
+
+Processing DescriptionsController#show (for 127.0.0.1 at 2009-10-30 10:46:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mDescription Load (0.2ms)[0m   [0;1mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 1) [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/show
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/descriptions/1]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 10:46:58) [GET]
+  [4;35;1mDescription Load (12.4ms)[0m   [0mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 334ms (View: 286, DB: 12) | 200 OK [http://localhost/descriptions]
+
+
+Processing DescriptionsController#edit (for 127.0.0.1 at 2009-10-30 10:47:17) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mDescription Load (1.3ms)[0m   [0;1mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 3) [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/edit
+Completed in 39ms (View: 20, DB: 1) | 200 OK [http://localhost/descriptions/3/edit]
+
+
+Processing DescriptionsController#update (for 127.0.0.1 at 2009-10-30 10:47:35) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"vTLg5DaxKWpGFIYWQr5Owo+FvDHEabAsPe2/gUSUUjY=", "id"=>"3", "description"=>{"descshort"=>" Local quality", "idShort"=>"3", "descLong"=>"Change an object's structure from uniform to nonuniform, change an external environment or external influence from uniform to nonuniform. Use a temperature, density, or pressure gradient instead of constant temperature, density or pressure.Make each part of an object function in conditions most suitable for its operation. Lunch box with special compartments for hot and cold solid foods and for liquids.Make each part of an object fulfill a different and useful function. Pencil with eraser; hammer with nail puller; multifunction tool that scales fish, acts as a pliers, a wire stripper, a flatblade screwdriver, a Phillips screwdriver, manicure set, etc."}}
+  [4;35;1mDescription Load (0.8ms)[0m   [0mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 3) [0m
+  [4;36;1mDescription Update (0.6ms)[0m   [0;1mUPDATE "descriptions" SET "updated_at" = '2009-10-30 17:47:35', "descLong" = 'Change an object''s structure from uniform to nonuniform, change an external environment or external influence from uniform to nonuniform. Use a temperature, density, or pressure gradient instead of constant temperature, density or pressure.Make each part of an object function in conditions most suitable for its operation. Lunch box with special compartments for hot and cold solid foods and for liquids.Make each part of an object fulfill a different and useful function. Pencil with eraser; hammer with nail puller; multifunction tool that scales fish, acts as a pliers, a wire stripper, a flatblade screwdriver, a Phillips screwdriver, manicure set, etc.' WHERE "id" = 3[0m
+Redirected to http://localhost:3000/descriptions/3
+Completed in 40ms (DB: 1) | 302 Found [http://localhost/descriptions/3]
+
+
+Processing DescriptionsController#show (for 127.0.0.1 at 2009-10-30 10:47:36) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mDescription Load (0.7ms)[0m   [0mSELECT * FROM "descriptions" WHERE ("descriptions"."id" = 3) [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/show
+Completed in 28ms (View: 8, DB: 1) | 200 OK [http://localhost/descriptions/3]
+
+
+Processing DescriptionsController#index (for 127.0.0.1 at 2009-10-30 10:47:39) [GET]
+  [4;36;1mDescription Load (12.5ms)[0m   [0;1mSELECT * FROM "descriptions" [0m
+Rendering template within layouts/descriptions
+Rendering descriptions/index
+Completed in 273ms (View: 241, DB: 12) | 200 OK [http://localhost/descriptions]

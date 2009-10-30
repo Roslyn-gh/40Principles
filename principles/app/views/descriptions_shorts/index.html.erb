@@ -1,0 +1,22 @@
+<h1>Listing descriptions_shorts</h1>
+
+<table>
+  <tr>
+    <th> idshort</th>
+    <th>Descriptionshort</th>
+  </tr>
+
+<% @descriptions_shorts.each do |descriptions_short| %>
+  <tr>
+    <td><%=h descriptions_short. idShort %></td>
+    <td><%=h descriptions_short.descriptionShort %></td>
+    <td><%= link_to 'Show', descriptions_short %></td>
+    <td><%= link_to 'Edit', edit_descriptions_short_path(descriptions_short) %></td>
+    <td><%= link_to 'Destroy', descriptions_short, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New descriptions_short', new_descriptions_short_path %>
